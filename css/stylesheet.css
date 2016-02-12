@@ -1,0 +1,75 @@
+h1 {
+  font-size: 30px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h2 {
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.navfixed {
+  text-align: left;
+  background-color: transparent;
+  position: fixed;
+  color: white;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 20 22;
+}
+.navfixedblack {
+  text-align: left;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 20 22;
+}
+.navline {
+  display: inline;
+  padding: 0 20;
+}
+.wrapper {
+  width: 100%;
+  padding: 0 50;
+  display: flex;
+  align-items: baseline;
+}
+.banner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.projekte {
+  width: auto;
+  justify-content: center;
+}
+.element {
+  width: 50%;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  column-gap: 2em;
+}
+.element h1{
+  -webkit-column-span: all;
+  -moz-column-span: all;
+}
+.element a {
+  text-decoration: none;
+  color: black
+}

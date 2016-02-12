@@ -1,0 +1,80 @@
+h1 {
+  font-size: 30px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h2 {
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.navfixedblack {
+  text-align: left;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 0 22;
+}
+.navline {
+  display: inline;
+  padding: 0 20;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 50;
+}
+.intro {
+  display: flex;
+  justify-content: space-around;
+}
+.header {
+  width: 100%;
+  margin-top: 150px;
+}
+.banner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.porfilpic {
+  width: 100%;
+  text-align: center;
+}
+.profilpic img {
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.cv {
+  width: 50%;
+  padding: 0 20;
+}
+.cv ul,
+  li{
+  list-style: none;
+}
+.article {
+  width: 40%;
+}
+.mainarticle {
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  padding: 0 30 40 30;
+}
+.projekte {
+
+}
