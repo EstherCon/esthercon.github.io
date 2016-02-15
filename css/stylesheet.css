@@ -26,24 +26,11 @@ nav a {
   width: 100%;
   font-family: 'Merriweather Sans', sans-serif;
   padding: 20 22;
-}
-.navfixedblack {
-  text-align: left;
-  background-color: white;
-  position: fixed;
-  width: 100%;
-  font-family: 'Merriweather Sans', sans-serif;
-  padding: 20 22;
+  overflow: auto;
 }
 .navline {
   display: inline;
   padding: 0 20;
-}
-.wrapper {
-  width: 100%;
-  padding: 0 50;
-  display: flex;
-  align-items: baseline;
 }
 .banner {
   width: 100%;
@@ -52,24 +39,47 @@ nav a {
 }
 .wrapper {
   width: 100%;
-  display: flex;
-  align-items: flex-start;
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+
 }
 .projekte {
-  width: auto;
-  justify-content: center;
+  width: 40%;
+  padding: 30 30;
+  order: 2;
 }
-.element {
-  width: 50%;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  column-gap: 2em;
+.projekte img{
+  width: 500px;
+  height: 274px;
 }
-.element h1{
-  -webkit-column-span: all;
-  -moz-column-span: all;
+.projekte a{
+  display: none;
 }
-.element a {
+.projekte:hover a {
+  display: block;
+  position: absolute;
+  color: #000;
+  background: rgba(0,0,0,0.05);
+  width: 500px;
+  height: 274px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.kurzgeschichte {
+  width: 40%;
+  padding: 10 30;
+  position:relative;
+  order: 1;
+}
+.kurzgeschichte a {
   text-decoration: none;
   color: black
+}
+.kurzgeschichte a:hover {
+  color: 4C4B4B;
+}
+.kurzgeschichte a:active {
+  color: black;
 }
