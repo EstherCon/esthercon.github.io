@@ -1,0 +1,229 @@
+h1 {
+  font-size: 30px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h2 {
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: 4C4B4B;
+}
+nav a:active {
+  color: black;
+}
+.navfixedblack {
+  text-align: left;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 20 22 10;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
+}
+.navline {
+  display: inline;
+  padding: 0 20;
+}
+.wrapper {
+  width: 100%;
+  position:absolute;
+  padding: 80 0;
+}
+.head h1{
+  text-align: center;
+}
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.header {
+  width: 100%;
+  margin-top: 150px;
+}
+.banner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.porfilpic {
+  width: 100%;
+  text-align: center;
+}
+.profilpic img {
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+.cv {
+  width: 30%;
+  padding: 0 20;
+  background-color: white;
+  align-self: flex-end;
+}
+.cv ul,
+  li{
+  list-style: none;
+}
+.article {
+  width: 40%;
+  background-color: white;
+  padding: 0 20;
+}
+.mainarticle {
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  padding: 0 30 40 30;
+}
+.projekte {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30;
+}
+.item_1 {
+  padding: 0 20;
+}
+.item_2 {
+  padding: 0 20;
+}
+.item_3 {
+  padding: 0 20;
+}
+.item_1 img{
+  max-width: 333px;
+  height: 274px;
+}
+.item_2 img{
+  max-width: 500px;
+  height: 274;
+}
+.item_3 img{
+  max-width: 500px;
+  height: 220;
+}
+.item_2 a{
+  display: none;
+}
+.item_2:hover a {
+  display: block;
+  position: absolute;
+  color: #000;
+  background: rgba(0,0,0,0.05);
+  width: 500px;
+  height: 274px;
+}
+.item_1 a{
+  display: none;
+}
+.item_1:hover a {
+  display: block;
+  position: absolute;
+  color: #000;
+  background: rgba(0,0,0,0.05);
+  width: 333px;
+  height: 274px;
+}
+.item_3 a{
+  display: none;
+}
+.item_3:hover a {
+  display: block;
+  position: absolute;
+  color: #000;
+  background: rgba(0,0,0,0.05);
+  width: 500px;
+  height: 274px;
+}
+.minze {
+  text-align: center;
+}
+.minze img{
+  padding: 20;
+}
+.katja {
+  text-align: center;
+}
+.katja img{
+  padding: 20;
+}
+.stargazer {
+  text-align: center;
+}
+.stargazer img{
+  padding: 20;
+}
+.kurzgeschichte {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item_4 {
+  width: 80%
+}
+.item_4 a {
+  text-decoration: none;
+  color: black;
+}
+.item_4 a:hover {
+  color: 4C4B4B;
+}
+.item_4 a:active {
+  color: black;
+}
+.item_5 {
+  width: 80%
+}
+.item_5 a {
+  text-decoration: none;
+  color: black;
+}
+.item_5 a:hover {
+  color: 4C4B4B;
+}
+.item_5 a:active {
+  color: black;
+}
+.geschichten {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.poem{
+  text-align: center;
+}
+.kontakte{
+  text-align: center;
+}
+.kontakte a{
+  text-decoration: none;
+  color: black;
+}
+.kontakte a:hover {
+  color: 4C4B4B;
+}
+.kontakte a:active {
+  color: black;
+}
+.kontakte p{
+  font-size: 20px
+}

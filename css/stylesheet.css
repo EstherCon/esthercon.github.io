@@ -1,0 +1,91 @@
+h1 {
+  font-size: 30px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h2 {
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: ECECEC;
+}
+nav a:active {
+  color: white;
+}
+.navfixed {
+  text-align: left;
+  background-color: transparent;
+  position: fixed;
+  color: white;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 20 22;
+  overflow: auto;
+}
+.navline {
+  display: inline;
+  padding: 0 20;
+}
+.banner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+
+}
+.projekte {
+  width: 40%;
+  padding: 30 30;
+  order: 2;
+}
+.projekte img{
+  width: 500px;
+  height: 274px;
+}
+.projekte a{
+  display: none;
+}
+.projekte:hover a {
+  display: block;
+  position: absolute;
+  color: #000;
+  background: rgba(0,0,0,0.05);
+  width: 500px;
+  height: 274px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.kurzgeschichte {
+  width: 40%;
+  padding: 10 30;
+  position:relative;
+  order: 1;
+}
+.kurzgeschichte a {
+  text-decoration: none;
+  color: black
+}
+.kurzgeschichte a:hover {
+  color: 4C4B4B;
+}
+.kurzgeschichte a:active {
+  color: black;
+}
