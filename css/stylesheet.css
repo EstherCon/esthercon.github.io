@@ -17,6 +17,12 @@ nav a {
   text-decoration: none;
   color: white;
 }
+nav a:hover {
+  color: ECECEC;
+}
+nav a:active {
+  color: white;
+}
 .navfixed {
   text-align: left;
   background-color: transparent;

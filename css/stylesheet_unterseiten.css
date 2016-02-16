@@ -159,3 +159,71 @@ nav a:active {
 .minze img{
   padding: 20;
 }
+.katja {
+  text-align: center;
+}
+.katja img{
+  padding: 20;
+}
+.stargazer {
+  text-align: center;
+}
+.stargazer img{
+  padding: 20;
+}
+.kurzgeschichte {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item_4 {
+  width: 80%
+}
+.item_4 a {
+  text-decoration: none;
+  color: black;
+}
+.item_4 a:hover {
+  color: 4C4B4B;
+}
+.item_4 a:active {
+  color: black;
+}
+.item_5 {
+  width: 80%
+}
+.item_5 a {
+  text-decoration: none;
+  color: black;
+}
+.item_5 a:hover {
+  color: 4C4B4B;
+}
+.item_5 a:active {
+  color: black;
+}
+.geschichten {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.poem{
+  text-align: center;
+}
+.kontakte{
+  text-align: center;
+}
+.kontakte a{
+  text-decoration: none;
+  color: black;
+}
+.kontakte a:hover {
+  color: 4C4B4B;
+}
+.kontakte a:active {
+  color: black;
+}
+.kontakte p{
+  font-size: 20px
+}
