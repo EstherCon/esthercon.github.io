@@ -20,7 +20,7 @@ header img{
 }
 
 .main {
-  width: 100%;
+  width: 80%;
   margin: 5% 30%;
   font-family: 'Roboto', sans-serif;
 
@@ -28,13 +28,13 @@ header img{
 
 .main h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 100px;
+  font-size: 30px;
   color: black;
 }
 
 .scroll {
   font-family: 'Roboto', sans-serif;
-  font-size: 80px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -56,7 +56,7 @@ header img{
   color: black;
   padding: 0%;
   font-family: 'Roboto', sans-serif;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .container a{
@@ -65,8 +65,8 @@ header img{
 }
 
 .container {
-  width: 1830px;
-  height: 1830px;
+  width: 460px;
+  height: 460px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -80,8 +80,8 @@ header img{
 }
 
 .mary-1 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
@@ -89,71 +89,70 @@ header img{
 }
 
 .mary-2 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
 }
 
 .mary-3 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
 }
 
 .mary-4 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
 }
 
 .mary-5 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
 }
 
 .mary-6 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
 }
 
 .mary-7 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
 }
 
 .mary-8 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
 }
 
 .mary-9 {
-  width: 600px;
-  height: 600px;
+  width: 150px;
+  height: 150px;
   background: black;
   padding: 1em;
   margin: 1%;
 }
-
 .name {
-  font-size: 90px;
+  font-size: 23px;
   font-family: sans-serif;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -259,10 +258,10 @@ header img{
   background-size: cover;
   width: auto;
   height: 20vh;
-  margin: 0% -30%;
+  margin: 0% -40%;
 }
 
 .intro p{
   width: 50%;
-  font-size: 80px;
+  font-size: 20px;
 }
