@@ -1,91 +1,268 @@
+* {
+box-sizing: border-box;
+}
+
 h1 {
-  font-size: 30px;
-  font-family: 'Merriweather Sans', sans-serif;
-}
-h2 {
-  font-size: 25px;
-  font-family: 'Merriweather Sans', sans-serif;
-}
-h3 {
-  font-family: 'Merriweather Sans', sans-serif;
-}
-body {
-  padding: 0;
-  margin: 0;
-}
-nav a {
-  text-decoration: none;
-  color: white;
-}
-nav a:hover {
-  color: ECECEC;
-}
-nav a:active {
-  color: white;
-}
-.navfixed {
-  text-align: left;
-  background-color: transparent;
-  position: fixed;
-  color: white;
-  z-index: 1;
-  width: 100%;
-  font-family: 'Merriweather Sans', sans-serif;
-  padding: 20 22;
-  overflow: auto;
-}
-.navline {
-  display: inline;
-  padding: 0 20;
-}
-.banner {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.wrapper {
-  width: 100%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: baseline;
-
-}
-.projekte {
-  width: 40%;
-  padding: 30 30;
-  order: 2;
-}
-.projekte img{
-  width: 500px;
-  height: 274px;
-}
-.projekte a{
-  display: none;
-}
-.projekte:hover a {
-  display: block;
-  position: absolute;
-  color: #000;
-  background: rgba(0,0,0,0.05);
-  width: 500px;
-  height: 274px;
-  text-align: left;
-  text-decoration: none;
+  font-size: 90px;
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.kurzgeschichte {
-  width: 40%;
-  padding: 10 30;
-  position:relative;
-  order: 1;
+header{
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
-.kurzgeschichte a {
-  text-decoration: none;
-  color: black
+
+header img{
+  width: 80%;
 }
-.kurzgeschichte a:hover {
-  color: 4C4B4B;
+
+.main {
+  width: 100%;
+  margin: 5% 30%;
+  font-family: 'Roboto', sans-serif;
+
 }
-.kurzgeschichte a:active {
+
+.main h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
   color: black;
+}
+
+.scroll {
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+.main-profil {
+  margin: 1% 8%;
+}
+
+.main-profil a{
+  text-decoration: none;
+  color: black;
+  margin: 1%;
+}
+
+.main-profil:hover a {
+  color: tomato;
+}
+
+.main-profil h1{
+  color: black;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+}
+
+.container a{
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 1830px;
+  height: 1830px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  background: white;
+  cursor: pointer;
+}
+
+.mary:hover {
+    background: tomato;
+}
+
+.mary-1 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+
+}
+
+.mary-2 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+}
+
+.mary-3 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+}
+
+.mary-4 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+}
+
+.mary-5 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+}
+
+.mary-6 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+}
+
+.mary-7 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+}
+
+.mary-8 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+}
+
+.mary-9 {
+  width: 600px;
+  height: 600px;
+  background: black;
+  padding: 1em;
+  margin: 1%;
+}
+
+.name {
+  font-size: 90px;
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.profil-banner-k {
+  background: url(../image/mary_k.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+.profil-banner-a {
+  background: url(../image/mary_a.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+.profil-banner-an {
+  background: url(../image/mary_an.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+.profil-banner-d {
+  background: url(../image/mary_d.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+.profil-banner-e {
+  background: url(../image/mary_e.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+.profil-banner-m-jr {
+  background: url(../image/mary_m_jr.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+.profil-banner-m {
+  background: url(../image/mary_m.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+.profil-banner-mi {
+  background: url(../image/mary_mi.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+.profil-banner-lu {
+  background: url(../image/mary_lu.png);
+  background-size: cover;
+  height: 20vh;
+}
+
+
+.steckbrief {
+  width: 100%;
+  height: 20vh;
+  margin: 4% 0%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+}
+
+.steckbrief h2{
+  font-size: 20px;
+  line-height: 1;
+}
+
+.alias {
+  width: 48%;
+  height: 20vh;
+  padding: 2%;
+  background: black;
+  color: white;
+}
+
+.instrument {
+  width: 48%;
+  height: 20vh;
+  padding: 0.5% 2%;
+  background: black;
+  color: white;
+  font-size: 18px;
+}
+
+.instrument ul{
+  list-style: none;
+  padding: 0% 0%;
+}
+
+
+.intro-banner {
+  background: url(../image/mary_roomates_2.png);
+  background-attachment: fixed;
+  background-size: cover;
+  width: auto;
+  height: 20vh;
+  margin: 0% -30%;
+}
+
+.intro p{
+  width: 50%;
+  font-size: 80px;
 }
